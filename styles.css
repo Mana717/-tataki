@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,15 +85,55 @@ body {
     cursor: pointer;
     animation: pop-up 0.3s ease-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* もぐらの顔をCSS図形で作成 */
 .mole::before {
-    content: '🐹';
+    content: '';
     position: absolute;
-    top: 50%;
+    width: 60px;
+    height: 60px;
+    background: #654321;
+    border-radius: 50%;
+    border: 3px solid #8b4513;
+}
+
+/* もぐらの目と鼻をCSS図形で作成 */
+.mole::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #000;
+    border-radius: 50%;
+    top: 22px;
+    left: 20px;
+    box-shadow: 20px 0 0 #000, 10px 10px 0 #000;
+}
+
+/* ハンマーアイコン */
+.hammer-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #8b4513;
+    border-radius: 4px;
+    position: relative;
+    margin: 0 8px;
+}
+
+.hammer-icon::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background: #654321;
+    bottom: -20px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2rem;
+    transform: translateX(-50%);
 }
 
 .mole.hit {
@@ -199,5 +239,18 @@ body {
     .mole {
         width: 60px;
         height: 60px;
+    }
+    
+    .mole::before {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .mole::after {
+        width: 6px;
+        height: 6px;
+        top: 17px;
+        left: 15px;
+        box-shadow: 15px 0 0 #000, 8px 8px 0 #000;
     }
 }
