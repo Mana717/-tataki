@@ -1,0 +1,139 @@
+<svg viewBox="0 0 1024 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 192px Icon -->
+  <g transform="translate(64, 160)">
+    <!-- Background circle -->
+    <circle cx="96" cy="96" r="96" fill="#4CAF50" stroke="#388E3C" stroke-width="4"/>
+    
+    <!-- Dirt hole -->
+    <ellipse cx="96" cy="140" rx="45" ry="25" fill="#8D6E63"/>
+    <ellipse cx="96" cy="135" rx="40" ry="20" fill="#6D4C41"/>
+    
+    <!-- Hamster body -->
+    <ellipse cx="96" cy="120" rx="35" ry="30" fill="#D2691E"/>
+    
+    <!-- Hamster head -->
+    <circle cx="96" cy="90" r="25" fill="#F4A460"/>
+    
+    <!-- Hamster ears -->
+    <circle cx="82" cy="75" r="8" fill="#F4A460"/>
+    <circle cx="110" cy="75" r="8" fill="#F4A460"/>
+    <circle cx="82" cy="75" r="5" fill="#FFB6C1"/>
+    <circle cx="110" cy="75" r="5" fill="#FFB6C1"/>
+    
+    <!-- Hamster eyes -->
+    <circle cx="88" cy="85" r="5" fill="#000000"/>
+    <circle cx="104" cy="85" r="5" fill="#000000"/>
+    <circle cx="90" cy="83" r="2" fill="#FFFFFF"/>
+    <circle cx="106" cy="83" r="2" fill="#FFFFFF"/>
+    
+    <!-- Hamster nose -->
+    <circle cx="96" cy="95" r="2" fill="#FF69B4"/>
+    
+    <!-- Hamster mouth -->
+    <path d="M 92 98 Q 96 102 100 98" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Hamster cheeks -->
+    <circle cx="78" cy="92" r="6" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="114" cy="92" r="6" fill="#FFB6C1" opacity="0.7"/>
+    
+    <!-- Hammer -->
+    <g transform="translate(140, 40)">
+      <!-- Hammer handle -->
+      <rect x="0" y="0" width="8" height="60" fill="#8D6E63" rx="4"/>
+      
+      <!-- Hammer head -->
+      <rect x="-15" y="5" width="30" height="15" fill="#9E9E9E" rx="2"/>
+      <rect x="-12" y="8" width="24" height="9" fill="#BDBDBD" rx="1"/>
+    </g>
+    
+    <!-- Impact stars -->
+    <g transform="translate(125, 65)">
+      <path d="M 0 -8 L 2 -2 L 8 -2 L 3 2 L 5 8 L 0 4 L -5 8 L -3 2 L -8 -2 L -2 -2 Z" fill="#FFD700"/>
+    </g>
+    
+    <g transform="translate(115, 45)">
+      <path d="M 0 -6 L 1.5 -1.5 L 6 -1.5 L 2.25 1.5 L 3.75 6 L 0 3 L -3.75 6 L -2.25 1.5 L -6 -1.5 L -1.5 -1.5 Z" fill="#FFD700"/>
+    </g>
+  </g>
+  
+  <!-- 512px Icon -->
+  <g transform="translate(576, 0)">
+    <!-- Background circle -->
+    <circle cx="256" cy="256" r="256" fill="#4CAF50" stroke="#388E3C" stroke-width="12"/>
+    
+    <!-- Dirt hole -->
+    <ellipse cx="256" cy="380" rx="120" ry="65" fill="#8D6E63"/>
+    <ellipse cx="256" cy="370" rx="105" ry="55" fill="#6D4C41"/>
+    
+    <!-- Hamster body -->
+    <ellipse cx="256" cy="320" rx="90" ry="80" fill="#D2691E"/>
+    
+    <!-- Hamster head -->
+    <circle cx="256" cy="240" r="65" fill="#F4A460"/>
+    
+    <!-- Hamster ears -->
+    <circle cx="210" cy="200" r="20" fill="#F4A460"/>
+    <circle cx="302" cy="200" r="20" fill="#F4A460"/>
+    <circle cx="210" cy="200" r="12" fill="#FFB6C1"/>
+    <circle cx="302" cy="200" r="12" fill="#FFB6C1"/>
+    
+    <!-- Hamster eyes -->
+    <circle cx="235" cy="225" r="12" fill="#000000"/>
+    <circle cx="277" cy="225" r="12" fill="#000000"/>
+    <circle cx="238" cy="222" r="5" fill="#FFFFFF"/>
+    <circle cx="280" cy="222" r="5" fill="#FFFFFF"/>
+    
+    <!-- Hamster nose -->
+    <circle cx="256" cy="250" r="5" fill="#FF69B4"/>
+    
+    <!-- Hamster mouth -->
+    <path d="M 240 260 Q 256 270 272 260" stroke="#000000" stroke-width="5" fill="none"/>
+    
+    <!-- Hamster cheeks -->
+    <circle cx="195" cy="245" r="15" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="317" cy="245" r="15" fill="#FFB6C1" opacity="0.7"/>
+    
+    <!-- Hamster whiskers -->
+    <line x1="175" y1="240" x2="210" y2="235" stroke="#000000" stroke-width="2"/>
+    <line x1="175" y1="255" x2="210" y2="255" stroke="#000000" stroke-width="2"/>
+    <line x1="337" y1="240" x2="302" y2="235" stroke="#000000" stroke-width="2"/>
+    <line x1="337" y1="255" x2="302" y2="255" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Hammer -->
+    <g transform="translate(370, 110)">
+      <!-- Hammer handle -->
+      <rect x="0" y="0" width="20" height="150" fill="#8D6E63" rx="10"/>
+      <rect x="3" y="3" width="14" height="144" fill="#A1887F" rx="7"/>
+      
+      <!-- Hammer head -->
+      <rect x="-40" y="15" width="80" height="40" fill="#9E9E9E" rx="5"/>
+      <rect x="-35" y="20" width="70" height="30" fill="#BDBDBD" rx="3"/>
+      <rect x="-30" y="25" width="60" height="20" fill="#E0E0E0" rx="2"/>
+    </g>
+    
+    <!-- Impact stars -->
+    <g transform="translate(330, 170)">
+      <path d="M 0 -20 L 5 -5 L 20 -5 L 8 5 L 13 20 L 0 10 L -13 20 L -8 5 L -20 -5 L -5 -5 Z" fill="#FFD700"/>
+      <path d="M 0 -15 L 3.75 -3.75 L 15 -3.75 L 6 3.75 L 9.75 15 L 0 7.5 L -9.75 15 L -6 3.75 L -15 -3.75 L -3.75 -3.75 Z" fill="#FFF176"/>
+    </g>
+    
+    <g transform="translate(310, 130)">
+      <path d="M 0 -15 L 3.75 -3.75 L 15 -3.75 L 6 3.75 L 9.75 15 L 0 7.5 L -9.75 15 L -6 3.75 L -15 -3.75 L -3.75 -3.75 Z" fill="#FFD700"/>
+    </g>
+    
+    <g transform="translate(290, 190)">
+      <path d="M 0 -12 L 3 -3 L 12 -3 L 4.8 3 L 7.8 12 L 0 6 L -7.8 12 L -4.8 3 L -12 -3 L -3 -3 Z" fill="#FFD700"/>
+    </g>
+    
+    <!-- Grass details -->
+    <g transform="translate(100, 450)">
+      <path d="M 0 0 Q 5 -15 10 -5 Q 15 -20 20 -10 Q 25 -15 30 0" stroke="#388E3C" stroke-width="3" fill="none"/>
+      <path d="M 50 0 Q 55 -18 60 -8 Q 65 -22 70 -12 Q 75 -18 80 0" stroke="#388E3C" stroke-width="3" fill="none"/>
+    </g>
+    
+    <g transform="translate(350, 460)">
+      <path d="M 0 0 Q 5 -12 10 -2 Q 15 -17 20 -7 Q 25 -12 30 0" stroke="#388E3C" stroke-width="3" fill="none"/>
+      <path d="M 50 0 Q 55 -15 60 -5 Q 65 -19 70 -9 Q 75 -15 80 0" stroke="#388E3C" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+</svg>
